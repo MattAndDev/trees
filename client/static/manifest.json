@@ -1,0 +1,13 @@
+{
+  "name": "Trees 🌲🌳🌴",
+  "short_name": "trees",
+  "start_url": "/",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/static/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+:root {
+  --color-primary: #43afba;
+  --color-secondary: #ced63d;
+  --color-tertiary: #dd8360;
+  --color-foreground: rgb(23, 23, 23);
+  --color-background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-foreground: #fff;
+    --color-background: rgb(23, 23, 23);
+  }
+}

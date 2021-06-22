@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders button correctly 1`] = `
+<button
+  class="wrap"
+  id="btn"
+  type="button"
+>
+  Oh hi!
+</button>
+`;
+
+exports[`Renders loading button by default correctly 1`] = `
+<button
+  class="wrap"
+  id="btn"
+  type="button"
+>
+  Oh hi!
+  <span
+    class="spinner"
+  />
+</button>
+`;

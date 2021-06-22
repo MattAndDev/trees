@@ -1,0 +1,6 @@
+.wrap {
+  padding: 2rem;
+  background-color: var(--color-background);
+  width: 100%;
+  box-sizing: border-box;
+}

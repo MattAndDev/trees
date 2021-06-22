@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders card correctly 1`] = `
+<div
+  class="wrap"
+>
+  <h2
+    class="common h2"
+  >
+    Foo
+  </h2>
+  <h3
+    class="common h3"
+  >
+    bar
+  </h3>
+  <button
+    class="wrap"
+    type="button"
+  >
+    Show image
+  </button>
+</div>
+`;
+
+exports[`Toggles image on click 1`] = `
+<div
+  class="wrap"
+>
+  <h2
+    class="common h2"
+  >
+    Foo
+  </h2>
+  <h3
+    class="common h3"
+  >
+    bar
+  </h3>
+  <img
+    class="imgFull imgLoading"
+    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg=="
+  />
+  <button
+    class="wrap"
+    type="button"
+  >
+    show
+    <span
+      class="spinner"
+    />
+  </button>
+</div>
+`;

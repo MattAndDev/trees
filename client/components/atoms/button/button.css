@@ -1,0 +1,54 @@
+.wrap {
+  font-size: 1rem;
+  padding: 0.5rem;
+  background: var(--color-primary);
+  border-radius: 0.25em;
+  color: var(--color-foreground);
+  border: none;
+  line-height: 1.5rem;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.spinner {
+  display: inline-block;
+  height: 1rem;
+  margin: 0 0.5rem;
+
+  line-height: 1rem;
+  vertical-align: text-top;
+  animation: appear 0.1s linear;
+}
+
+.spinner::after {
+  content: ' ';
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 0.1rem solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: spinner 1.2s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes appear {
+  0% {
+    width: 0;
+    margin: 0;
+    transform: scale(0);
+  }
+  100% {
+    margin: 0 0.5rem;
+    transform: scale(1);
+    width: 1rem;
+  }
+}
