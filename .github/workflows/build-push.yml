@@ -26,7 +26,7 @@ jobs:
       - name: Run Buildx
         run: |
           docker buildx build \
-          -t mattanddev/trees:${{ steps.tagName.outputs.tag }} \
+          -t mattanddev/trees-pwa:${{ steps.tagName.outputs.tag }} \
           ./ \
           --platform linux/arm/v7 \
-          --output type=image,name=mattanddev/trees:${{ steps.tagName.outputs.tag }},push=true \
+          --output type=image,name=mattanddev/trees-pwa:${{ steps.tagName.outputs.tag }},push=true \
