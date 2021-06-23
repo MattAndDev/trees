@@ -46,7 +46,7 @@ const conf: webpack.Configuration = {
       ]
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css'
+      filename: 'css/[name].css'
     }),
     ...(!env.HMR_ENABLED
       ? [
