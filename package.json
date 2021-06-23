@@ -1,6 +1,6 @@
 {
   "name": "trees",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pretty pretty trees",
   "scripts": {
     "start": "ts-node -r tsconfig-paths/register -p ./ -w -d -h -b debug -n development",
